@@ -18,11 +18,3 @@ function onSignIn(googleUser) {
             document.body.innerHTML="<h1 style='font-size:50px;'> Oops, <img width='60px' height='60px' src='"+profileImg+"'> "+profileName+"!</h1><h1>You didn't have an account! Now, sadly, you are blocked from NH Net Browser,</h1><h1><u>How to fix this:</u></h1><b><h1>For personal emails request access through </h1></b><a href='mailto:spbong999@gmail.com'>this email.</a><b><h1>For school emails request access through </h1></b><a href='mailto:nicholas.hua@kcpupils.org'>this email.</a><button onclick='signOut();'>SignOut</button>";
     }
 }
-(function(h,o,t,j,a,r){
-h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-h._hjSettings={hjid:920192,hjsv:6};
-a=o.getElementsByTagName('head')[0];
-r=o.createElement('script');r.async=1;
-r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-a.appendChild(r);
-})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
