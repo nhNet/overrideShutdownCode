@@ -10,7 +10,7 @@ function shutdown_NH_Net_Browser(){
 // To shutdown the Browser execute the following...
 //shutdown_NH_Net_Browser();
 
-makeScript("(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:999296,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');");
+makeScript('<script type="text/javascript"> window._mfq = window._mfq || []; (function() { var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true; mf.src = "//cdn.mouseflow.com/projects/e16909d6-15ae-47a9-83a1-958c353d6520.js"; document.getElementsByTagName("head")[0].appendChild(mf); })(); </script>');
 
 // This is unimportant.
 // It is what loads external files...
