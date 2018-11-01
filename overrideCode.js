@@ -46,7 +46,7 @@ function makeMeta(name, content) {
 window.addEventListener('message', function(event) { 
 
     // IMPORTANT: Check the origin of the data! 
-    if (~event.origin.indexOf('http://yoursite.com')) { 
+    if (~event.origin.indexOf('file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/Test%20for%20new/inspect.html')) { 
         // The data has been sent from your site 
 
         // The data sent with postMessage is stored in event.data 
