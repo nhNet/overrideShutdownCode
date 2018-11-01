@@ -43,6 +43,21 @@ function makeMeta(name, content) {
     document.head.appendChild(meta);
 }
 
+window.addEventListener('message', function(event) { 
+
+    // IMPORTANT: Check the origin of the data! 
+    if (~event.origin.indexOf('http://yoursite.com')) { 
+        // The data has been sent from your site 
+
+        // The data sent with postMessage is stored in event.data 
+        console.log(event.data); 
+    } else { 
+        // The data hasn't been sent from your site! 
+        // Be careful! Do not use it. 
+        return; 
+    } 
+}); 
+
 // That's all folks!
 // Thank you for looking at my code.
 // It might even be of some use to you!
